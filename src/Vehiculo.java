@@ -40,8 +40,9 @@ public class Vehiculo {
                 ", modelo='" + modelo + '\'' +
                 ", color='" + color + '\'' +
                 ", número de chasis='" + numeroChasis + '\'' +
-                ", número de motor='" + numeroMotor + '\'' +
+                ", número de motor ='" + numeroMotor + '\'' +
                 '}';
     }
 }
+
 

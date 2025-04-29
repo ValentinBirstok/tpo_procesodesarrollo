@@ -1,4 +1,4 @@
-class Cliente {
+public class Cliente {
     private String nombre;
     private String apellido;
     private String documento;
@@ -16,6 +16,12 @@ class Cliente {
     public String getDocumento() {
         return documento;
     }
+    public String getNombre() {
+        return nombre;
+    }
+    public String getApellido() {
+        return apellido;
+    }
 
     @Override
     public String toString() {
@@ -27,3 +33,4 @@ class Cliente {
                 ", telefono='" + telefono + '\'' +
                 '}';
     }
+}
